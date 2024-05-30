@@ -1,7 +1,7 @@
 
 function runTests(tests) {
     document.getElementById("microversion").appendChild(
-        document.createTextNode("6")
+        document.createTextNode("10")
     )
     for (let test of tests) {
         try {
